@@ -12,7 +12,7 @@ algoritmo area
     leia a, b, c
 
     pi = 3.14159
-    triangulo = (a * b) / 2
+    triangulo = (a * c) / 2
     circulo = c * pi**2
     quadrado = b**2
     retangulo = a * b
