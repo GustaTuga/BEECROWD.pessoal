@@ -1,5 +1,6 @@
 # entrada de valor
 valor = int(input())
+valor_inicial = valor
 
 # Declaração de valores
 nota100 = nota50 = nota20 = nota10 = nota5 = nota2 = nota1 = 0
@@ -32,10 +33,11 @@ while verificador:
         verificador = False
 
 # Saída de dados
-print(f'{nota100} nota(s) de R$ 100')
-print(f'{nota50} nota(s) de R$ 50')
-print(f'{nota20} nota(s) de R$ 20')
-print(f'{nota10} nota(s) de R$ 10')
-print(f'{nota5} nota(s) de R$ 5')
-print(f'{nota2} nota(s) de R$ 2')
-print(f'{nota1} nota(s) de R$ 1')
+print(f'{valor_inicial}')
+print(f'{nota100} nota(s) de R$ 100,00')
+print(f'{nota50} nota(s) de R$ 50,00')
+print(f'{nota20} nota(s) de R$ 20,00')
+print(f'{nota10} nota(s) de R$ 10,00')
+print(f'{nota5} nota(s) de R$ 5,00')
+print(f'{nota2} nota(s) de R$ 2,00')
+print(f'{nota1} nota(s) de R$ 1,00')
