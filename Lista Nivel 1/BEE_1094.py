@@ -1,5 +1,5 @@
 # Entrada do numero de testes
-n = int(input())
+n = int(input("quantos testes?"))
 
 # Declarações de valores
 quantia_c = 0
@@ -9,7 +9,7 @@ quantia_total = 0
 
 # Loop para entrada de cobais e verificação do tipo
 for i in range(n):
-    numero, tipo = input().split()
+    numero, tipo = input("Numero e tipo").split()
     quantia = int(numero)
     quantia_total += quantia
     if tipo == 'C':
